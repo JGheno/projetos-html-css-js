@@ -1,0 +1,52 @@
+.conteiner{
+    font-family: 'Dongle', sans-serif;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteiner h1{
+    margin: 20px;
+}
+
+.conteiner #numero {
+  color: black;
+  font-size: 200px;
+  margin: 20px;
+  
+  /* Controle explícito de tamanho */
+  width: 300px;     /* ajusta a largura */
+  height: 150px;    /* ajusta a altura */
+  
+  /* Ajustes para centralizar o texto dentro do elemento */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.botoes {
+  display: flex;            /* Alinha os botões em linha */
+  justify-content: center;  /* Centraliza horizontalmente */
+  gap: 20px;                /* Espaçamento entre os botões */
+  margin-top: 20px;         /* Espaço acima dos botões */
+  
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
